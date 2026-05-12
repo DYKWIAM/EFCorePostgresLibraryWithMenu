@@ -12,7 +12,7 @@ while (running)
     Console.WriteLine("2. Add Book");
     Console.WriteLine("3. Update Book");
     Console.WriteLine("4. Delete Book");
-    Console.WriteLine("5. Add Category To Book, initial MigrationCreate has 5 Categorys");
+    Console.WriteLine("5. Add Category To Book, Manage Relations");
     Console.WriteLine("0. Exit");
 
     Console.Write("Choice: ");
@@ -40,7 +40,7 @@ while (running)
         case "5":
             service.AddCategoryToBook();
             break;
-
+            
         case "0":
             running = false;
             break;

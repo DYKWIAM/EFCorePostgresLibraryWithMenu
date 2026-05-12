@@ -226,3 +226,4 @@ C:\Users\masou\Desktop\New folder\LibrarySystem\obj\Debug\net10.0\refint\LämnaI
 C:\Users\masou\Desktop\New folder\LibrarySystem\obj\Debug\net10.0\LämnaInEntity.pdb
 C:\Users\masou\Desktop\New folder\LibrarySystem\obj\Debug\net10.0\LämnaInEntity.genruntimeconfig.cache
 C:\Users\masou\Desktop\New folder\LibrarySystem\obj\Debug\net10.0\ref\LämnaInEntity.dll
+C:\Users\masou\Desktop\New folder\LibrarySystem\obj\Debug\net10.0\LämnaInEntity.sourcelink.json

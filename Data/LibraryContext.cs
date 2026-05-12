@@ -19,7 +19,7 @@ public class LibraryContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // Composite key for many-to-many
+        // Composite key for many-to-many with Book and Category
         modelBuilder.Entity<BookCategory>()
             .HasKey(bc => new { bc.BookId, bc.CategoryId });
 
@@ -43,6 +43,9 @@ public class LibraryContext : DbContext
             new Author { Id = 11, Name = "Leo Tolstoy", Email = "tolstoy@example.com" },
             new Author { Id = 12, Name = "Virginia Woolf", Email = "vwoolf@example.com" }
         );
+        // the rest of Seed was moved afterwards to LibrarySeedData to keep Context clean and short.
+        // so here we just call the list from LibrarySeedData.cs Class.
+        // this is because i wanted to have a little bit more data to show.
         modelBuilder.Entity<Book>().HasData(LibrarySeedData.Books);
         modelBuilder.Entity<Category>().HasData(LibrarySeedData.Categories);
         modelBuilder.Entity<BookCategory>().HasData(LibrarySeedData.BookCategories);
