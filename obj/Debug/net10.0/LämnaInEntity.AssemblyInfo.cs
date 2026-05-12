@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LämnaInEntity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79d8b27a22fe0fc62528565830262d3eaac9e60a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+115f1d1968bca83a8ddb9394a39b9257c2733f4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("LämnaInEntity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LämnaInEntity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

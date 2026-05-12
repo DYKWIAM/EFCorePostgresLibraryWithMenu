@@ -9,10 +9,10 @@ while (running)
     Console.WriteLine();
     Console.WriteLine("===== LIBRARY SYSTEM =====");
     Console.WriteLine("1. Show Books, initial MigrationCreate has 40 Units ");
-    Console.WriteLine("2. Add Book");
+    Console.WriteLine("2. Add Book, Author id between 1-5");
     Console.WriteLine("3. Update Book");
     Console.WriteLine("4. Delete Book");
-    Console.WriteLine("5. Add Category To Book, Manage Relations");
+    Console.WriteLine("5. Add Category To Book, between 1-5 Category");
     Console.WriteLine("0. Exit");
 
     Console.Write("Choice: ");
@@ -40,7 +40,7 @@ while (running)
         case "5":
             service.AddCategoryToBook();
             break;
-            
+
         case "0":
             running = false;
             break;
